@@ -1,0 +1,38 @@
+#conteudo {
+    text-align: center;
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+#search-container {
+    text-align: center;
+}
+
+#search-input {
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+#search-button {
+    padding: 10px;
+    background-color: #a7c5bd;
+    border-radius: 50;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+}
+
+#filter-select {
+    padding: 10px;
+    text-align: center;
+}
