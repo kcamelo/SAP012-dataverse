@@ -4,44 +4,45 @@ style.css style.css * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} 
+}
 
 :root {
     text-align: center;
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 20;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: #f4f4f4;
-}
 
-#search-container {
-    
-    padding: auto;
-}
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 20;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: #f4f4f4;
+    }
 
-#search-input {
-    padding: 10px;
-    width: 300px;
-    margin-right: 10px;
-    text-align: center;
-}
+    #search-container {
 
-#search-button {
-    padding: 10px;
-    background-color: #a7c5bd;
-    border-radius: 50;
-    color: #fff;
-    cursor: pointer;
-    border: none;
-   
-}
+        padding: auto;
+    }
 
-#filter-select {
-    padding: 10px;
-    
-}
+    #search-input {
+        padding: 10px;
+        width: 300px;
+        margin-right: 10px;
+        text-align: center;
+    }
+
+    #search-button {
+        padding: 10px;
+        background-color: #a7c5bd;
+        border-radius: 50;
+        color: #fff;
+        cursor: pointer;
+        border: none;
+
+    }
+
+    #filter-select {
+        padding: 10px;
+
+    }

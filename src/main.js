@@ -3,13 +3,15 @@ import { renderItems } from './view.js';
 
 import data from './data/dataset.js';
 
-console.log(example, renderItems(data), data);
+const root = document.getElementById("root")
+root.innerHTML = renderItems(data);
 
-function realizarPesquisa() {
-    // Obtenha os valores do campo de pesquisa e do filtro de seleção
-    var termoPesquisa = document.getElementById('search-input').value;
-    var filtroSelecao = document.getElementById('filter-select').value;
+const selectSubFilter = documet.getElementById("select_SubFilter")
+const selectFilter = document.getElementById("select_filter")
+selectSubFilter.inner.innerHTML= renderFilter (selectFilter.value)
+selectFilter.addEventListener( 'change' fuction {}{
+    const itemSelecionado = document.getElementById ("select_ordering").value
+    const ordenacao = document.querySelector ('input[name="ordering"]:checked').value;
 
-    // Realize a lógica de pesquisa ou envie os dados para um servidor, conforme necessário
-    alert('Termo de pesquisa: ' + termoPesquisa + '\nFiltro de seleção: ' + filtroSelecao);
-}
+    
+})
