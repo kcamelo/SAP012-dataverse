@@ -24,7 +24,7 @@ export default [
   "facts": {
   "Reino": "Animalia",
   "Filo": "Chordata",
-  "Classe": "Mammalia",
+  "Cla  e": "Mammalia",
   "Ordem": "Carnivora",
   "Família": "Felidae",
   "Gênero": "Panthera",
