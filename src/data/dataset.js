@@ -1,11 +1,11 @@
 export default [
   {
-  "id": "Leao",
-  "name": "Leão",
+  "idAnimal": "Leao",
+  "nameAnimal": "Leão",
   "shortDescription": "O majestoso rei da savana",
-  "description": "O majestoso leão, conhecido como o rei da selva, destaca-se por sua juba imponente e pelagem dourada. Com olhos penetrantes e poderosas garras, ele personifica a força e a elegância selvagem. Este carnívoro social exibe habilidades de caça excepcionais, liderando orgulhos com destemida autoridade. Seu rugido retumbante ecoa, comunicando domínio e territorialidade. Além de sua natureza feroz, os leões também revelam momentos de ternura, especialmente em interações familiares. Um ícone da savana, o leão representa a imponência da vida selvagem africana.",
+  "descriptionAnimal": "O majestoso leão, conhecido como o rei da selva, destaca-se por sua juba imponente e pelagem dourada. Com olhos penetrantes e poderosas garras, ele personifica a força e a elegância selvagem. Este carnívoro social exibe habilidades de caça excepcionais, liderando orgulhos com destemida autoridade. Seu rugido retumbante ecoa, comunicando domínio e territorialidade. Além de sua natureza feroz, os leões também revelam momentos de ternura, especialmente em interações familiares. Um ícone da savana, o leão representa a imponência da vida selvagem africana.",
   "imageUrl": "https://raw.githubusercontent.com/kcamelo/SAP012-dataverse/main/src/data/Imagens_card/Le%C3%A3o%201.jpeg",
-  "facts": {
+  "factsAnimnals": {
     "reinoAnimal": "Animalia",
     "filoAnimal": "Chordata",
     "classeAnimal": "Mammalia",
@@ -45,7 +45,6 @@ export default [
     "famíliAnimal":"Elephantidae",
     "gêneroAnimal": "Loxodonta",
     "espécieAnimal": "Loxodonta africana"
-  }
   },
   {
   "id": "girafa",
@@ -96,12 +95,12 @@ export default [
   }
   },
   {
-  "id": "urso",
-  "name": "Urso-pardo",
+  "idAnimal": "urso",
+  "nameaNIMAL": "Urso-pardo",
   "shortDescription": "Mamífero omnívoro de porte robusto",
-  "description": "O imponente urso pardo (Ursus arctos) é uma espécie distribuída por diversas regiões do hemisfério norte, incluindo América do Norte, Europa e Ásia. Reconhecido por sua pelagem densa, variando de marrom a preto, este carnívoro omnívoro desempenha um papel vital nos ecossistemas montanhosos, florestais e tundrais em que habita. Com habilidades de pesca notáveis, contribui para o equilíbrio ecológico, controlando populações de peixes e outros animais. Apesar dos desafios de conservação, o Ursus arctos personifica a majestade da vida selvagem e a importância da preservação de habitats naturais.",
+  "descriptionAnimal": "O imponente urso pardo (Ursus arctos) é uma espécie distribuída por diversas regiões do hemisfério norte, incluindo América do Norte, Europa e Ásia. Reconhecido por sua pelagem densa, variando de marrom a preto, este carnívoro omnívoro desempenha um papel vital nos ecossistemas montanhosos, florestais e tundrais em que habita. Com habilidades de pesca notáveis, contribui para o equilíbrio ecológico, controlando populações de peixes e outros animais. Apesar dos desafios de conservação, o Ursus arctos personifica a majestade da vida selvagem e a importância da preservação de habitats naturais.",
   "imageUrl": "https://raw.githubusercontent.com/kcamelo/SAP012-dataverse/main/src/data/Imagens_card/Urso%207.jpg",
-  "facts": {
+  "factsAnimals": {
     "reinoAnimal": "Animalia",
     "filoAnimal":"Chordata",
     "classeAnimal":"Mammalia",
@@ -109,7 +108,6 @@ export default [
     "famíliAnimal":"Ursidae",
     "gêneroAnimal":"Ursus",
     "espécieAnimal":"Ursus arctos"
-  }
   },
   {
   "id": "zebra",
@@ -370,7 +368,7 @@ export default [
   "id": "capivara",
   "name": "Capivara",
   "shortDescription": "Maior roedor do mundo",
-  "description": "A capivara, maior roedor do mundo, é uma presença carismática nas paisagens aquáticas da América do Sul. Com sua pelagem densa e hábitos semi-aquáticos, ela personifica a harmonia entre ecossistemas aquáticos e terrestres. Social e pacífica, a Hydrochoerus hydrochaeris contribui para a biodiversidade ao controlar a vegetação aquática. Sua adaptação única a diferentes ambientes, desde pântanos até campos abertos, destaca a versatilidade e a importância desses roedores na fauna sul-americana.",
+  "description": "A capivara, maior roedor do mundo, encanta com sua natureza dócil e aparência peculiar. Com um corpo robusto e pelagem marrom, esses animais semi-aquáticos são frequentemente encontrados em ambientes aquáticos nas Américas do Sul e Central. Sua característica mais distintiva é a cabeça arredondada, adornada com olhos expressivos e orelhas pequenas. Social por natureza, a capivara vive em grupos, demonstrando forte vínculo social. Alimentando-se de capim e vegetação aquática, contribui para a ecologia ao moldar ecossistemas únicos. A capivara personifica a serenidade da vida selvagem, tornando-se um ícone amado em diversas culturas.",
   "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/91546944/large.jpg",
   "facts": {
     "reinoAnimal": "Animalia",
