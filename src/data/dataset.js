@@ -96,19 +96,19 @@ export default [
     }
   },
   {
-    "idAnimal": "urso",
-    "nameaNIMAL": "Urso-pardo",
+    "id": "urso",
+    "name": "Urso-pardo",
     "shortDescription": "Mamífero omnívoro de porte robusto",
-    "descriptionAnimal": "O imponente urso pardo (Ursus arctos) é uma espécie distribuída por diversas regiões do hemisfério norte, incluindo América do Norte, Europa e Ásia. Reconhecido por sua pelagem densa, variando de marrom a preto, este carnívoro omnívoro desempenha um papel vital nos ecossistemas montanhosos, florestais e tundrais em que habita. Com habilidades de pesca notáveis, contribui para o equilíbrio ecológico, controlando populações de peixes e outros animais. Apesar dos desafios de conservação, o Ursus arctos personifica a majestade da vida selvagem e a importância da preservação de habitats naturais.",
+    "description": "O imponente urso pardo (Ursus arctos) é uma espécie distribuída por diversas regiões do hemisfério norte, incluindo América do Norte, Europa e Ásia. Reconhecido por sua pelagem densa, variando de marrom a preto, este carnívoro omnívoro desempenha um papel vital nos ecossistemas montanhosos, florestais e tundrais em que habita. Com habilidades de pesca notáveis, contribui para o equilíbrio ecológico, controlando populações de peixes e outros animais. Apesar dos desafios de conservação, o Ursus arctos personifica a majestade da vida selvagem e a importância da preservação de habitats naturais.",
     "imageUrl": "https://raw.githubusercontent.com/kcamelo/SAP012-dataverse/main/src/data/Imagens_card/Urso%207.jpg",
-    "factsAnimals": {
+    "facts": {
       "reinoAnimal": "Animalia",
       "filoAnimal": "Chordata",
       "classeAnimal": "Mammalia",
       "ordemAnimal": "Carnivora",
       "familiaAnimal": "Ursidae",
       "generoAnimal": "Ursus",
-      "especieAnimal": "Ursus arctos",
+      "especieAnimal":"Ursus arctos",
     }
   },
   {

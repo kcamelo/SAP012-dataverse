@@ -4,7 +4,7 @@ import { renderItems } from './view.js';
 import data from './data/dataset.js';
 
 const root = document.getElementById("root")
-root.appendChild = (renderItems(data));
+root.appendChild (renderItems(data));
 
 //const selectSubFilter = document.getElementById("select_SubFilter")
 //const selectFilter = document.getElementById("select_filter")
