@@ -29,18 +29,26 @@
 
 
     <div id="search-container">
-      <input type="text" id="search-input" placeholder="Digite o que deseja pesquisar...">
-      <select id="filter-select">
-        <option value="todos">Todos</option>
-        <option value="nome">Nome</option>
-        <option value="descricao">Descrição</option>
-        <option value="reino">Reino</option>
-        <option value="filo">Filo</option>
-        <option value="classe">Classe</option>
-        <option value="ordem">Ordem</option>
-        <option value="familia">Família</option>
-        <option value="genero">Genero</option>
-        <option value="especie">Espécie</option>
+      <label>
+        Escolha uma ordem animal :
+        <select class="ordemAnimal" name="ordemAnimal">
+          <option value="">Selecione um...</option>
+          <option value="Carnivora">Carnivora</option>
+          <option value="Accipitriformes">Accipitriformes</option>
+          <option value="Proboscidea">Proboscidea</option>
+          <option value="Artiodactyla">Artiodactyla</option>
+          <option value="Perissodactyla">Perissodactyla</option>
+          <option value="Squamata">Squamata</option>
+          <option value="Piciformes">Piciformes</option>
+          <option value="Pilosa">Pilosa</option>
+          <option value="Testudines">Testudines</option>
+          <option value="Rodentia">Rodentia</option>
+          <option value="Primates">Primates</option>
+         
+        </select>
+      </label>
+      
+      <div class="result"></div>
         <!-- Adicione mais opções conforme necessário -->
       </select>
       <button id="search-button" onclick="realizarPesquisa()">Pesquisar</button>
