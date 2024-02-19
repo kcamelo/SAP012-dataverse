@@ -26,57 +26,57 @@
 
 
   <!-- Botão de pesquisa -->
+  <div id="search-container">
+    <label>
+      Escolha uma ordem animal :
+      <select class="ordemAnimal" name="ordemAnimal">
+        <option value="">Selecione um...</option>
+        <option value="Carnivora">Carnivora</option>
+        <option value="Accipitriformes">Accipitriformes</option>
+        <option value="Proboscidea">Proboscidea</option>
+        <option value="Artiodactyla">Artiodactyla</option>
+        <option value="Perissodactyla">Perissodactyla</option>
+        <option value="Squamata">Squamata</option>
+        <option value="Piciformes">Piciformes</option>
+        <option value="Pilosa">Pilosa</option>
+        <option value="Testudines">Testudines</option>
+        <option value="Rodentia">Rodentia</option>
+        <option value="Primates">Primates</option>
 
-
-    <div id="search-container">
-      <label>
-        Escolha uma ordem animal :
-        <select class="ordemAnimal" name="ordemAnimal">
-          <option value="">Selecione um...</option>
-          <option value="Carnivora">Carnivora</option>
-          <option value="Accipitriformes">Accipitriformes</option>
-          <option value="Proboscidea">Proboscidea</option>
-          <option value="Artiodactyla">Artiodactyla</option>
-          <option value="Perissodactyla">Perissodactyla</option>
-          <option value="Squamata">Squamata</option>
-          <option value="Piciformes">Piciformes</option>
-          <option value="Pilosa">Pilosa</option>
-          <option value="Testudines">Testudines</option>
-          <option value="Rodentia">Rodentia</option>
-          <option value="Primates">Primates</option>
-         
-        </select>
-      </label>
-      
-      <div class="result"></div>
-        <!-- Adicione mais opções conforme necessário -->
       </select>
-      <button id="search-button" onclick="realizarPesquisa()">Pesquisar</button>
-    </div>
+    </label>
 
-
-    <label for="menu">Menu</label>
-    <select multiple data-testid="select-sort" name="ordemAlfabetica">
-      <optiongroup label="Ordem Alfabética">
-        <option value="asc">A-Z</option>
-        <option value="desc">Z-A</option>
-      </optiongroup>
-
-
-
-
-
-
-
-
-
+    <div class="result"></div>
+    <!-- Adicione mais opções conforme necessário -->
     </select>
-<div id="root">
-  
-</div>
-    <footer>
-      <p>Autora: Katharine Akama </p>
-    </footer>
-  </body>
+    <button id="search-button" onclick="realizarPesquisa()">Pesquisar</button>
+  </div>
+
+
+  <select data-testid="selecionar-ordenar" name="ordemAlfabetica">
+    <optiongroup label="Ordem Alfabética">
+      <option value="asc">A-Z</option>
+      <option value="desc">Z-A</option>
+    </optiongroup>
+
+  </select>
+  <div id="root">
+
+  </div>
+  <footer>
+    <div class="container__footer">
+      <div class="socialIcons">
+        <a href="https://github.com/kcamelo" target="_blank">
+          <img id="githubIcon" src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+            alt="Icon ordenação" />
+        </a>
+        <a href="https://www.linkedin.com/in/katharine-camelo/" target="_blank">
+          <img id="linkedinIcon" src="https://cdn-icons-png.flaticon.com/512/61/61109.png" alt="Icon ordenação" />
+        </a>
+      </div>
+      <p>Katharine Akama</p>
+    </div>
+  </footer>
+</body>
 
 </html>
