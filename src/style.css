@@ -1,103 +1,98 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,100&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: "Lato-Bold", Helvetica;
-    color: #333;
-    background-color: #f8f8f8;
-    font-weight: bold;
-  }
-  
-  .container__text {
-    display: flex;
-    flex-direction: column;
+  font-family: "Lato-Bold", Helvetica;
+  color: #333;
+  background-color: #f8f8f8;
+  font-weight: bold;
+  padding: 0;
+  height: 100vh;
+ }
+
+.container__text {
+  display: flex;
+  flex-direction: column;
+}
 
 header {
-    width: 86px;
-    height: 87px;
-    flex-shrink: 0;
-    color: black;
-    text-align: center;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: "JetBrains Mono";
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 40;
-    line-height: normal;
-    justify-content: center;
-}
-main {
-    padding: 20px;
-    background-color: #fff;
-    max-width: 1475px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column; /* Adicionado para garantir que os itens estejam em coluna */
+  color: black;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "JetBrains Mono";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 40;
+  line-height: normal;
   }
-  
+
+main {
+  padding: 20px;
+  background-color: #fff;
+  max-width: 1475px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  /* Adicionado para garantir que os itens estejam em coluna */
+}
+
 :root {
-    text-align: center;
+  text-align: center;
+}
 
-    body {
-        font-family: 'Arial', sans-serif;
-        margin: 20;
-        padding: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-        background-color: #f4f4f4;
-    }
+#search-container {
 
-    #search-container {
+  padding: auto;
+}
+.imagem_card {
+  width: 86px;
+}
+#search-input {
+  padding: 10px;
+  width: 300px;
+  margin-right: 10px;
+  text-align: center;
+}
 
-        padding: auto;
-    }
+#search-button {
+  padding: 10px;
+  background-color: #a7c5bd;
+  border-radius: 50;
+  color: #fff;
+  cursor: pointer;
+  border: none;
 
-    #search-input {
-        padding: 10px;
-        width: 300px;
-        margin-right: 10px;
-        text-align: center;
-    }
+}
 
-    #search-button {
-        padding: 10px;
-        background-color: #a7c5bd;
-        border-radius: 50;
-        color: #fff;
-        cursor: pointer;
-        border: none;
-
-    }
-
-    /* #filter-select {
+/* #filter-select {
         padding: 10px;
 
     } */
 
-    /* Footer styles */
+/* Footer styles */
 footer {
-    background-color: #15161b;
-    color: #fff;
-    padding: 100px 0;
-    text-align: center;
-  }
-  footer p {
-    font-size: 18px;
-    color: #ffffff;
-  }
-  .container__footer {
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
-  .socialIcons a {
-    color: #fff;
-    margin-right: 10px;
-  }
+  background-color: #15161b;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.container__footer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.socialIcons a {
+  color: #fff;
+  margin-right: 10px;
+}
