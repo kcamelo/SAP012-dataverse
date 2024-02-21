@@ -33,7 +33,7 @@ header {
 
 main {
   padding: 20px;
-  background-color: #fff;
+  background-color: ##e5ddcb;
   max-width: 1475px;
   margin: 0 auto;
   display: flex;
@@ -61,10 +61,11 @@ main {
 }
 
 li {
-  background-color: orange;
+  background-color: #a7c5bd;
   margin: 20px;
   width: 500px;
   padding: 20px;
+  border-radius: 10%;
 }
 
 #search-input {
