@@ -2,7 +2,6 @@
 
 // função que faz o filtro (argumentos: conjuto de dados, chave do filtro e o valor dado do filtro)
 export const filterTable = (data, filterBy, value) => {
-  // eslint-disable-next-line no-undef
   const dadosFiltrados = data.filter((animal) => animal.facts[filterBy].toLowerCase().includes(value.toLowerCase()));
   return dadosFiltrados;
 };

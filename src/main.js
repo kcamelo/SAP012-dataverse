@@ -9,17 +9,17 @@ import data from './data/dataset.js';
 const filtroAnimal = document.querySelector('#filtroOrdemAnimal');
 const ordemAlfabetica = document.querySelector('#ordemAlfabetica');
 const botaoReset = document.querySelector('#resetButton');
-const listaCards = document.querySelector('#root');
+const cardAnimal = document.querySelector('#root');
 document.addEventListener("DOMContentLoaded", () => {
-  listaCards.appendChild(renderItems(data));
+  cardAnimal.appendChild(renderItems(data));
 });
 
 // const resetButton = document.querySelector('#search-button');
 // print dos cards no site
 
 const printCards = (dados) => {
-  listaCards.innerHTML = "";
-  listaCards.appendChild(renderItems(dados));
+  cardAnimal.innerHTML = "";
+  cardAnimal.appendChild(renderItems(dados));
 };
 
 //  filtrar os dados
@@ -34,16 +34,18 @@ function filtraOrdenaCards() {
   printCards(dadosFiltrados);
 }
 
-printCards(data);
-filtroAnimal.addEventListener('change', () => filtraOrdenaCards());
-ordemAlfabetica.addEventListener('change', () => filtraOrdenaCards());
-
-botaoReset.addEventListener('click', () => { 
-  //console.log(event); 
+botaoReset.addEventListener('click', (event) => { 
+  console.log(event); 
   filtroAnimal.value = '';
   ordemAlfabetica.value = 'asc';
   printCards(data); 
 });
+
+
+printCards(data);
+filtroAnimal.addEventListener('change', () => filtraOrdenaCards());
+ordemAlfabetica.addEventListener('change', () => filtraOrdenaCards());
+
 
 
 // let cardData = [...data];
