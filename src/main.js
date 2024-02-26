@@ -17,13 +17,13 @@ document.addEventListener("DOMContentLoaded", () => {
 // const resetButton = document.querySelector('#search-button');
 // print dos cards no site
 
-const printCards = (data) => {
+const printCards = (dados) => {
   listaCards.innerHTML = "";
-  listaCards.appendChild(renderItems(data));
+  listaCards.appendChild(renderItems(dados));
 };
 
 //  filtrar os dados
-const filtraOrdenaCards = () => {
+function filtraOrdenaCards() {
   const ordemSelecionada = filtroAnimal.value;
   const sortSelecionado = ordemAlfabetica.value;
   let dadosFiltrados = data;
@@ -32,7 +32,7 @@ const filtraOrdenaCards = () => {
   }
   dadosFiltrados = sortData(dadosFiltrados, 'name', sortSelecionado);
   printCards(dadosFiltrados);
-};
+}
 
 printCards(data);
 filtroAnimal.addEventListener('change', () => filtraOrdenaCards());
@@ -47,15 +47,10 @@ botaoReset.addEventListener('click', () => {
 
 
 // let cardData = [...data];
-
 // listaCards.innerHTML = ""
-
 // listaCards.innerHTML = renderItems(cardsFiltrados)
-
 // document.addEventListener("DOMContentLoaded", () => {
-
 //   cardAnimal.appendChild(renderItems(data))
-
 // })
 
 
