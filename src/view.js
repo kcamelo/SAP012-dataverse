@@ -1,4 +1,4 @@
-import dataset from "./data/dataset.js";
+
 export const renderItems = (data) => {
   const cardAnimal = document.createElement('ul');
   cardAnimal.classList.add('container');
