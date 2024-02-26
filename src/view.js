@@ -3,7 +3,7 @@ export const renderItems = (data) => {
   const cardAnimal = document.createElement('ul');
   cardAnimal.classList.add('container');
   data.forEach((item) => {
-    console.log(item.facts)
+    // console.log(item.facts)
     cardAnimal.innerHTML += `
     <li intemscope itemtype= "zoologicoAnimals" class="container">
       <dl intemscope itemtype="#zoologicoAnimal">
@@ -13,9 +13,10 @@ export const renderItems = (data) => {
         <dt>Descrição</dt> <dd itemprop="description"> ${item.description}</dd>
         <dt>Fatos</dt> <dd itemprop="facts"> ${item.facts.especieAnimal}</dd>
       </dl>
-    </li>`
+    </li> 
+  `;
 
-  });
+  })
   return cardAnimal;
 };
 

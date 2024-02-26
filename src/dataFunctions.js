@@ -1,27 +1,17 @@
 // Estas funciones son ejemplos, aquí puedes desarrollar tus propias funciones.
 
-export const filterData = (data, FilterBy, value) => {
-  const dadosFiltrados = data.filter(
-    (ordem) => ordem.facts.ordemAnimal === value
-  );
+// função que faz o filtro (argumentos: conjuto de dados, chave do filtro e o valor dado do filtro)
+export const filterTable = (data, filterBy, value) => {
+  dadosFiltrados = data.filter((animal) => animal.facts[filterBy].toLowerCase().includes(value.toLowerCase()));
+  return dadosFiltrados;
 };
 
-export const anotherExample = () => {
-  return [];
+export const sortData = (data, sortBy, sortOrder) => {
+  if (sortOrder === 'asc') {
+    return data.slice().sort((a, b) => a[sortBy].localeCompare(b[sortBy]));
+  } else if (sortOrder === 'desc') {
+    return data.slice().sort((a, b) => b[sortBy].localeCompare(a[sortBy]));
+  } else {
+    return data;
+  }
 };
-// renderizar cards pelo root 
-const listaCards = document.querySelector("#root")
-listaCards.innerHTML = renderItems (data);
-
-let cardsFiltrados = data;
-
-// Filtro de Ordem 
-const filtroOrdem = docuemnt.getElementById('filtroOrdemanimal')
-filtroOrdem.addEventListener('change', (event) => {
-  constvalorDoFiltro = event.target.value;
-
-  cardsFiltrados = filterData (data,'ordemAnimal', valorDoFiltro)
-  listaCards.innerHTML = ""
-  listaCards.innerHTML = renderItems (cardsFiltrados)
-});
-

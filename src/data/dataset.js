@@ -12,7 +12,7 @@ export default [
       "ordemAnimal": "Carnivora",
       "familiAnimal": "Felidae",
       "generoAnimal": "Panthera",
-      "especieAnimal": "Panthera leo",
+      "especieAnimal": "Panthera leo"
     }
   },
   {
@@ -28,7 +28,7 @@ export default [
       "ordemAnimal": "Carnivora",
       "familiaAnimal": "Felidae",
       "generoAnimal": "Panthera",
-      "especieAnimal": "Panthera tigris",
+      "especieAnimal": "Panthera tigris"
     }
   },
   {
@@ -44,7 +44,7 @@ export default [
       "ordemAnimal": "Proboscidea",
       "familiaAnimal": "Elephantidae",
       "generoAnimal": "Loxodonta",
-      "especieAnimal": "Loxodonta africana",
+      "especieAnimal": "Loxodonta africana"
     },
   },
   {
@@ -60,7 +60,7 @@ export default [
       "ordemAnimal": "Artiodactyla",
       "familiaAnimal": "Giraffidae",
       "generoAnimal": "Giraffa",
-      "especieAnimal": "Giraffa camelopardalis",
+      "especieAnimal": "Giraffa camelopardalis"
     }
   },
   {
@@ -76,7 +76,7 @@ export default [
       "ordemAnimal": "Primates",
       "familiaAnimal": "Cercopithecidae",
       "generoAnimal": "Macaca",
-      "especieAnimal": "Macaca mulatta",
+      "especieAnimal": "Macaca mulatta"
     }
   },
   {
@@ -92,7 +92,7 @@ export default [
       "ordemAnimal": "Primates",
       "familiaAnimal": "Hominidae",
       "generoAnimal": "Gorilla",
-      "especieAnimal": "Gorilla gorilla",
+      "especieAnimal": "Gorilla gorilla"
     }
   },
   {
@@ -108,7 +108,7 @@ export default [
       "ordemAnimal": "Carnivora",
       "familiaAnimal": "Ursidae",
       "generoAnimal": "Ursus",
-      "especieAnimal":"Ursus arctos",
+      "especieAnimal":"Ursus arctos"
     }
   },
   {
@@ -124,7 +124,7 @@ export default [
       "ordemAnimal": "Perissodactyla",
       "familiaAnimal": "Equidae",
       "generoAnimal": "Equus",
-      "especieAnimal": "Equus zebra",
+      "especieAnimal": "Equus zebra"
     }
   },
   {
@@ -140,7 +140,7 @@ export default [
       "ordemAnimal": "Carnivora",
       "familiaAnimal": "Ursidae",
       "generoAnimal": "Ailuropoda",
-      "especieAnimal": "Ailuropoda melanoleuca",
+      "especieAnimal": "Ailuropoda melanoleuca"
     }
   },
   {
@@ -156,7 +156,7 @@ export default [
       "ordemAnimal": "Perissodactyla",
       "familiaAnimal": "Rhinocerotidae",
       "generoAnimal": "Rhinoceros",
-      "especieAnimal": "Rhinoceros ceratotherium simum",
+      "especieAnimal": "Rhinoceros ceratotherium simum"
     }
   },
   {
@@ -172,7 +172,7 @@ export default [
       "ordemAnimal": "Carnivora",
       "familiaAnimal": "Canidae",
       "generoAnimal": "Canis",
-      "especieAnimal": "Canis lupus",
+      "especieAnimal": "Canis lupus"
     }
   },
   {
@@ -188,7 +188,7 @@ export default [
       "ordemAnimal": "Accipitriformes",
       "familiaAnimal": "Accipitridae",
       "generoAnimal": "Aquila",
-      "especieAnimal": "Aquila chrysaetos",
+      "especieAnimal": "Aquila chrysaetos"
     }
   },
   {
@@ -204,7 +204,7 @@ export default [
       "ordemAnimal": "Squamata",
       "familiaAnimal": "Colubridae",
       "generoAnimal": "Spilotes",
-      "especieAnimal": "Spilotes pullatus",
+      "especieAnimal": "Spilotes pullatus"
     }
   },
   {
@@ -220,7 +220,7 @@ export default [
       "ordemAnimal": "Carnivora",
       "familiaAnimal": "Canidae",
       "generoAnimal": "Cerdocyon",
-      "especieAnimal": "Cerdocyon thous",
+      "especieAnimal": "Cerdocyon thous"
     }
   },
   {
@@ -236,7 +236,7 @@ export default [
       "ordemAnimal": "Carnivora ",
       "familiaAnimal": "Mephitidae",
       "generoAnimal": "Conepatus",
-      "especieAnimal": "Conepatus semistriatus",
+      "especieAnimal": "Conepatus semistriatus"
     }
   },
   {
@@ -252,7 +252,7 @@ export default [
       "ordemAnimal": "Piciformes",
       "familiaAnimal": "Ramphastidae",
       "generoAnimal": "Ramphastos",
-      "especieAnimal": "Ramphastos toco",
+      "especieAnimal": "Ramphastos toco"
     }
   },
   {
@@ -268,7 +268,7 @@ export default [
       "ordemAnimal": "Pilosa",
       "familiaAnimal": "Myrmecophagidae",
       "generoAnimal": "Tamandua",
-      "especieAnimal": "Tamandua tetradactyla",
+      "especieAnimal": "Tamandua tetradactyla"
     }
   },
   {
@@ -284,7 +284,7 @@ export default [
       "ordemAnimal": "Testudines",
       "familiaAnimal": "Testudinidae",
       "generoAnimal": "Chelonoidis",
-      "especieAnimal": "Chelonoidis carbonaria",
+      "especieAnimal": "Chelonoidis carbonaria"
     }
   },
   {
@@ -300,7 +300,7 @@ export default [
       "ordemAnimal": "Pilosa",
       "familiaAnimal": "Bradypodidae",
       "generoAnimal": "Bradypus",
-      "especieAnimal": "Bradypus variegatus",
+      "especieAnimal": "Bradypus variegatus"
     }
   },
   {
@@ -316,7 +316,7 @@ export default [
       "ordemAnimal": "Carnivora",
       "familiaAnimal": "Canidae",
       "generoAnimal": "Lycalopex",
-      "especieAnimal": "Lycalopex gymnocercus",
+      "especieAnimal": "Lycalopex gymnocercus"
     }
   },
   {
@@ -332,7 +332,7 @@ export default [
       "ordemAnimal": "Squamata",
       "familiaAnimal": "Colubridae",
       "generoAnimal": "Oxybelis",
-      "especieAnimal": "Oxybelis fulgidus",
+      "especieAnimal": "Oxybelis fulgidus"
     }
   },
   {
@@ -348,7 +348,7 @@ export default [
       "ordemAnimal": "Carnivora",
       "familiaAnimal": "Canidae",
       "generoAnimal": "Chrysocyon",
-      "especieAnimal": "Chrysocyon brachyurus",
+      "especieAnimal": "Chrysocyon brachyurus"
     }
   },
   {
@@ -364,7 +364,7 @@ export default [
       "ordemAnimal": "Accipitriformes",
       "familiaAnimal": "Accipitridae",
       "generoAnimal": "Harpia",
-      "especieAnimal": "Harpia harpyja",
+      "especieAnimal": "Harpia harpyja"
     }
   },
   {
@@ -380,7 +380,7 @@ export default [
       "ordemAnimal": "Rodentia",
       "familiaAnimal": "Caviidae",
       "generoAnimal": "Hydrochoerus",
-      "especieAnimal": "Hydrochoerus hydrochaeris",
+      "especieAnimal": "Hydrochoerus hydrochaeris"
     }
   }
 ]

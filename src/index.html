@@ -26,24 +26,23 @@
   <!-- Botão de pesquisa -->
   <div id="search-container">
     <section class=" painelInteratividade">
-      <label class="filtroOrdemanimal" id="selecionaOrdemanimal" class="filtros">
-        Escolha uma ordem animal :
-        <select class="ordemAnimal" name="ordemAnimal" data-testid:="select-filter">
-          <option value="">Selecione um...</option>
-          <option value="Carnivora">Carnivora</option>
-          <option value="Accipitriformes">Accipitriformes</option>
-          <option value="Proboscidea">Proboscidea</option>
-          <option value="Artiodactyla">Artiodactyla</option>
-          <option value="Perissodactyla">Perissodactyla</option>
-          <option value="Squamata">Squamata</option>
-          <option value="Piciformes">Piciformes</option>
-          <option value="Pilosa">Pilosa</option>
-          <option value="Testudines">Testudines</option>
-          <option value="Rodentia">Rodentia</option>
-          <option value="Primates">Primates</option>
+      <label for="filtroOrdemAnimal" id="selecionaOrdemAnimal" class="filtros"> Escolha uma ordem animal :</label>
+      <select id="filtroOrdemAnimal" name="ordemAnimal" data-testid:="select-filter">
+        <option value="">Todos</option>
+        <option value="Carnivora">Carnivora</option>
+        <option value="Accipitriformes">Accipitriformes</option>
+        <option value="Proboscidea">Proboscidea</option>
+        <option value="Artiodactyla">Artiodactyla</option>
+        <option value="Perissodactyla">Perissodactyla</option>
+        <option value="Squamata">Squamata</option>
+        <option value="Piciformes">Piciformes</option>
+        <option value="Pilosa">Pilosa</option>
+        <option value="Testudines">Testudines</option>
+        <option value="Rodentia">Rodentia</option>
+        <option value="Primates">Primates</option>
 
-        </select>
-      </label>
+      </select>
+
 
       <div class="result"></div>
       <!-- Adicione mais opções conforme necessário -->
