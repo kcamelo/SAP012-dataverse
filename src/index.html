@@ -26,29 +26,29 @@
   <!-- Botão de pesquisa -->
   <div id="search-container">
     <section class=" painelInteratividade">
-    <label class="">
-      Escolha uma ordem animal :
-      <select class="ordemAnimal" name="ordemAnimal">
-        <option value="">Selecione um...</option>
-        <option value="Carnivora">Carnivora</option>
-        <option value="Accipitriformes">Accipitriformes</option>
-        <option value="Proboscidea">Proboscidea</option>
-        <option value="Artiodactyla">Artiodactyla</option>
-        <option value="Perissodactyla">Perissodactyla</option>
-        <option value="Squamata">Squamata</option>
-        <option value="Piciformes">Piciformes</option>
-        <option value="Pilosa">Pilosa</option>
-        <option value="Testudines">Testudines</option>
-        <option value="Rodentia">Rodentia</option>
-        <option value="Primates">Primates</option>
+      <label class="filtroOrdemanimal" id="selecionaOrdemanimal" class="filtros">
+        Escolha uma ordem animal :
+        <select class="ordemAnimal" name="ordemAnimal" data-testid:="select-filter">
+          <option value="">Selecione um...</option>
+          <option value="Carnivora">Carnivora</option>
+          <option value="Accipitriformes">Accipitriformes</option>
+          <option value="Proboscidea">Proboscidea</option>
+          <option value="Artiodactyla">Artiodactyla</option>
+          <option value="Perissodactyla">Perissodactyla</option>
+          <option value="Squamata">Squamata</option>
+          <option value="Piciformes">Piciformes</option>
+          <option value="Pilosa">Pilosa</option>
+          <option value="Testudines">Testudines</option>
+          <option value="Rodentia">Rodentia</option>
+          <option value="Primates">Primates</option>
 
+        </select>
+      </label>
+
+      <div class="result"></div>
+      <!-- Adicione mais opções conforme necessário -->
       </select>
-    </label>
-
-    <div class="result"></div>
-    <!-- Adicione mais opções conforme necessário -->
-    </select>
-    <button id="search-button" onclick="realizarPesquisa()">Limpar</button>
+      <button id="search-button" onclick="realizarPesquisa()">Limpar</button>
   </div>
 
 
@@ -57,7 +57,7 @@
       <option value="asc">A-Z</option>
       <option value="desc">Z-A</option>
     </optiongroup>
-  </section>
+    </section>
   </select>
   <div id="root" class="listaCards">
 
@@ -70,7 +70,8 @@
             alt="Icon ordenação" />
         </a>
         <a href="https://www.linkedin.com/in/katharine-camelo/" target="_blank">
-          <img id="linkedinIcon" src="https://png.pngtree.com/element_our/md/20180520/md_5b012512d8e0c.jpg" alt="Icon ordenação" />
+          <img id="linkedinIcon" src="https://png.pngtree.com/element_our/md/20180520/md_5b012512d8e0c.jpg"
+            alt="Icon ordenação" />
         </a>
       </div>
       <p>Katharine Akama</p>

@@ -19,7 +19,7 @@ export default [
     "id": "tigre",
     "name": "Tigre",
     "shortDescription": "Elegante felino listrado",
-    "description": "O tigre, majestoso felino listrado, destaca-se como um dos maiores do mundo. Com uma presença imponente e listras distintas, é um mestre da caça. Seu habitat diversificado, desde florestas até savanas, testemunha sua adaptabilidade. As características marcantes, como a pelagem elegante e olhos penetrantes, conferem-lhe uma aura de elegância selvagem. O Panthera tigris, pertencente à família Felidae, é essencial para ecossistemas e inspira respeito global. Cada tigre geralmente tem menos de 100 listras em seu corpo, formando um padrão único e irrepetível na natureza. Essas listras funcionam como as impressões digitais das pessoas, ajudando a identificar cada tigre. ",
+    "description": "O tigre, majestoso felino listrado, destaca-se como um dos maiores do mundo. Com uma presença imponente e listras distintas, é um mestre da caça. Seu habitat diversificado, desde florestas até savanas, testemunha sua adaptabilidade. As características marcantes, como a pelagem elegante e olhos penetrantes, conferem-lhe uma aura de elegância selvagem. O Panthera tigris, pertencente à família Felidae, é essencial para ecossistemas e inspira respeito global. Cada tigre geralmente tem menos de 100 listras em seu corpo, formando um padrão único e irrepetível na natureza. Essas listras funcionam como as impressões digitais das pessoas, ajudando a identificar cada tigre. ",
     "imageUrl": "https://raw.githubusercontent.com/kcamelo/SAP012-dataverse/main/src/data/Imagens_card/Tigre%202.jpg",
     "facts": {
       "reinoAnimal": "Animalia",

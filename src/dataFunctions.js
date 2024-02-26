@@ -16,4 +16,12 @@ listaCards.innerHTML = renderItems (data);
 let cardsFiltrados = data;
 
 // Filtro de Ordem 
-const filtroOrdem = 
+const filtroOrdem = docuemnt.getElementById('filtroOrdemanimal')
+filtroOrdem.addEventListener('change', (event) => {
+  constvalorDoFiltro = event.target.value;
+
+  cardsFiltrados = filterData (data,'ordemAnimal', valorDoFiltro)
+  listaCards.innerHTML = ""
+  listaCards.innerHTML = renderItems (cardsFiltrados)
+});
+
