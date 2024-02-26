@@ -2,6 +2,7 @@
 
 // função que faz o filtro (argumentos: conjuto de dados, chave do filtro e o valor dado do filtro)
 export const filterTable = (data, filterBy, value) => {
+  // Cria o objeto dadosFiltrados que varre a base e seleciona apenas os registros em que a coluna 'filterBy' está preenchida com 'value'
   const dadosFiltrados = data.filter((animal) => animal.facts[filterBy].toLowerCase().includes(value.toLowerCase()));
   return dadosFiltrados;
 };
