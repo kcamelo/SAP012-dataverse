@@ -1,5 +1,5 @@
 import { renderItems } from './view.js';
-import { filterTable, sortData } from './dataFunctions.js';
+import { filterTable, sortData, countCards } from './dataFunctions.js';
 import data from './data/dataset.js';
 
 // let cardData = [...data];
@@ -11,6 +11,7 @@ const filtroAnimal = document.querySelector('#filtroOrdemAnimal');
 const ordemAlfabetica = document.querySelector('#ordemAlfabetica');
 const botaoReset = document.querySelector('#resetButton');
 const cardAnimal = document.querySelector('#root');
+const qtdeCards = document.querySelector('#quantidadeCards');
 //document.addEventListener("DOMContentLoaded", () => {
 //  cardAnimal.appendChild(renderItems(data));
 //});
@@ -40,6 +41,14 @@ function filtraOrdenaCards() {
   dadosFiltrados = sortData(dadosFiltrados, 'name', sortSelecionado);
   // Printa os cards
   printCards(dadosFiltrados);
+
+  const qtdeAnimais = countCards(dadosFiltrados);
+  if (qtdeAnimais === 1) {
+    qtdeCards.textContent = 'Foi encontrado 1 animal.';
+  }
+  else {
+    qtdeCards.textContent = 'Foram encontrados ' + qtdeAnimais + ' animais.';
+  }
 }
 
 // Evento chamado ao clicar no botão de Limpar (Reset)
@@ -48,6 +57,7 @@ botaoReset.addEventListener('click', (event) => {
   // Reinicializa os botões de filtro e ordenação
   filtroAnimal.value = '';
   ordemAlfabetica.value = 'asc';
+  qtdeCards.textContent = '';
   // Printa a base completa novamente
   printCards(data); 
 });

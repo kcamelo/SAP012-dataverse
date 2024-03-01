@@ -16,3 +16,8 @@ export const sortData = (data, sortBy, sortOrder) => {
     return data;
   }
 };
+
+export const countCards = (data) => {
+  const count = data.map(item => item.id).reduce((accumulator) => accumulator + 1, 0);
+  return parseInt(count);
+};
