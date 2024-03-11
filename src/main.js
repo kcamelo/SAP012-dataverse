@@ -38,10 +38,11 @@ function filtraOrdenaCards() {
     dadosFiltrados = filterTable(data, 'ordemAnimal', ordemSelecionada);
   }
   // Ordena a base pela coluna name
-  dadosFiltrados = sortData(dadosFiltrados, 'name', sortSelecionado);
+  dadosFiltrados = sortData(dadosFiltrados, 'ordemAnimal', sortSelecionado);
   // Printa os cards
   printCards(dadosFiltrados);
 
+  // Printa a quantidade de cards que foram encontrados. Por questão de singular e plural, é feito um if para um texto específico para apenas um animal encontrado
   const qtdeAnimais = countCards(dadosFiltrados);
   if (qtdeAnimais === 1) {
     qtdeCards.textContent = 'Foi encontrado 1 animal.';
