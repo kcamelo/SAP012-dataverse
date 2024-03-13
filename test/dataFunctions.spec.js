@@ -33,10 +33,9 @@ describe('computeStats', () => {
     const data = [
       { ordemAnimal: 'Carnivora' },
       { ordemAnimal: 'Carnivora' },
-      { ordemAnimal: 'Carnivora' },
     ];
 
-    const expectedCount = 3;
+    const expectedCount = 2;
     const result = computeStats(data);
 
     expect(result).toBe(expectedCount);
