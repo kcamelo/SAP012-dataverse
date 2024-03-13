@@ -673,281 +673,80 @@ Recursos/características adicionais sugeridos:
 
 ## 8. Objetivos de aprendizagem
 
-Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projeto. Pense nisso para decidir sua estratégia de trabalho.
+RObjetivos de aprendizagem
+self
+peer
+coach
+HTML
+Uso de HTML semântico
 
-### HTML
+CSS
+Uso de seletores de CSS
 
-- [ ] **Uso de HTML semântico**
+Modelo de caixa (box model): borda, margem, preenchimento
 
-  <details><summary>Links</summary><p>
+Uso de flexbox em CSS
 
-  * [HTML semântico](https://curriculum.laboratoria.la/pt/topics/html/html5/semantic-html)
-  * [Semantics in HTML - MDN](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
-</p></details>
+Web APIs
+Uso de seletores de DOM
 
-### CSS
+Manipulação de eventos de DOM (listeners, propagação, delegação)
 
-- [ ] **Uso de seletores de CSS**
+Manipulação dinâmica de DOM
 
-  <details><summary>Links</summary><p>
+JavaScript
+Diferenciar entre tipos de dados primitivos e não primitivos
 
-  * [Intro a CSS](https://curriculum.laboratoria.la/pt/topics/css/css/intro-css)
-  * [CSS Selectors - MDN](https://developer.mozilla.org/pt_BR/docs/Web/CSS/CSS_Selectors)
-</p></details>
+Arrays (arranjos)
 
-- [ ] **Modelo de caixa (box model): borda, margem, preenchimento**
+Objetos (key, value)
 
-  <details><summary>Links</summary><p>
+Variáveis (declaração, atribuição, escopo)
 
-  * [Modelo de Caixa e Display](https://curriculum.laboratoria.la/pt/topics/css/css/boxmodel-and-display)
-  * [The box model - MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
-  * [Introduction to the CSS box model - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
-  * [CSS display - MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/display)
-  * [display - CSS Tricks](https://css-tricks.com/almanac/properties/d/display/)
-</p></details>
+Uso de condicionais (if-else, switch, operador ternário, lógica booleana)
 
-- [ ] **Uso de flexbox em CSS**
+Uso de laços (while, for, for..of)
 
-  <details><summary>Links</summary><p>
+Funções (params, args, return)
 
-  * [A Complete Guide to Flexbox - CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-  * [Flexbox Froggy](https://flexboxfroggy.com/#pt-br)
-  * [Flexbox - MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
-</p></details>
+Testes unitários (unit tests)
 
-### Web APIs
+Módulos de ECMAScript (ES modules)
 
-- [ ] **Uso de seletores de DOM**
+Uso de linter (ESLINT)
 
-  <details><summary>Links</summary><p>
+Uso de identificadores descritivos (Nomenclatura e Semântica)
 
-  * [Modificando o DOM](https://curriculum.laboratoria.la/pt/topics/browser/dom/1-dom-methods-selection)
-  * [Introdução ao DOM - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model/Introduction)
-  * [Locating DOM elements using selectors - MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors)
-</p></details>
+Diferença entre expressões (expressions) e declarações (statements)
 
-- [ ] **Manipulação de eventos de DOM (listeners, propagação, delegação)**
+Controle de Versões (Git e GitHub)
+Git: Instalação e configuração
 
-  <details><summary>Links</summary><p>
+Git: Controle de versão com git (init, clone, add, commit, status, push, pull, remote)
 
-  * [Introdução a eventos - MDN](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/Events)
-  * [EventTarget.addEventListener() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/addEventListener)
-  * [EventTarget.removeEventListener() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/removeEventListener)
-  * [Objeto Event](https://developer.mozilla.org/pt-BR/docs/Web/API/Event)
-</p></details>
+Git: Integração de mudanças entre ramos (branch, checkout, fetch, merge, reset, rebase, tag)
 
-- [ ] **Manipulação dinâmica de DOM**
+GitHub: Criação de contas e repositórios, configuração de chave SSH
 
-  <details><summary>Links</summary><p>
+GitHub: Implantação com GitHub Pages
 
-  * [Introdução ao DOM](https://developer.mozilla.org/pt-BR/docs/DOM/Referencia_do_DOM/Introdu%C3%A7%C3%A3o)
-  * [Node.appendChild() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/Node/appendChild)
-  * [Document.createElement() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/Document/createElement)
-  * [Document.createTextNode()](https://developer.mozilla.org/pt-BR/docs/Web/API/Document/createTextNode)
-  * [Element.innerHTML - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/Element/innerHTML)
-  * [Node.textContent - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/Node/textContent)
-</p></details>
+GitHub: Colaboração pelo Github (branches | forks | pull requests | code review | tags)
 
-### JavaScript
+Centrado no usuário
+Desenhar e desenvolver um produto ou serviço colocando as usuárias no centro
 
-- [ ] **Diferenciar entre tipos de dados primitivos e não primitivos**
+Design de produto
+Criar protótipos para obter feedback e iterar
 
-- [ ] **Arrays (arranjos)**
+Aplicar os princípios de desenho visual (contraste, alinhamento, hierarquia)
 
-  <details><summary>Links</summary><p>
+Pesquisa
+Planejar e executar testes de usabilidade
 
-  * [Arranjos](https://curriculum.laboratoria.la/pt/topics/javascript/arrays)
-  * [Array - MDN](https://developer.mozilla.org//pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/)
-  * [Array.prototype.sort() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
-  * [Array.prototype.forEach() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
-  * [Array.prototype.map() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
-  * [Array.prototype.filter() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
-  * [Array.prototype.reduce() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
-</p></details>
+AAI Prompting
+Dando Instruções
 
-- [ ] **Objetos (key, value)**
-
-  <details><summary>Links</summary><p>
-
-  * [Objetos em JavaScript](https://curriculum.laboratoria.la/pt/topics/javascript/objects/objects)
-</p></details>
-
-- [ ] **Variáveis (declaração, atribuição, escopo)**
-
-  <details><summary>Links</summary><p>
-
-  * [Valores, tipos de dados e operadores](https://curriculum.laboratoria.la/pt/topics/javascript/basics/values-variables-and-types)
-  * [Variáveis](https://curriculum.laboratoria.la/pt/topics/javascript/basics/variables)
-</p></details>
-
-- [ ] **Uso de condicionais (if-else, switch, operador ternário, lógica booleana)**
-
-  <details><summary>Links</summary><p>
-
-  * [Estruturas condicionais e repetitivas](https://curriculum.laboratoria.la/pt/topics/javascript/flow-control/conditionals-and-loops)
-  * [Tomando decisões no seu código — condicionais - MDN](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/conditionals)
-</p></details>
-
-- [ ] **Uso de laços (while, for, for..of)**
-
-  <details><summary>Links</summary><p>
-
-  * [Laços (Loops)](https://curriculum.laboratoria.la/pt/topics/javascript/flow-control/loops)
-  * [Laços e iterações - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Loops_and_iteration)
-</p></details>
-
-- [ ] **Funções (params, args, return)**
-
-  <details><summary>Links</summary><p>
-
-  * [Funções (controle de fluxo)](https://curriculum.laboratoria.la/pt/topics/javascript/flow-control/functions)
-  * [Funções clássicas](https://curriculum.laboratoria.la/pt/topics/javascript/functions/classic)
-  * [Arrow Functions](https://curriculum.laboratoria.la/pt/topics/javascript/functions/arrow)
-  * [Funções — blocos reutilizáveis de código - MDN](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/Functions)
-</p></details>
-
-- [ ] **Testes unitários (unit tests)**
-
-  <details><summary>Links</summary><p>
-
-  * [Introdução ao Jest - Documentação oficial](https://jestjs.io/docs/pt-BR/getting-started)
-</p></details>
-
-- [ ] **Módulos de ECMAScript (ES modules)**
-
-  <details><summary>Links</summary><p>
-
-  * [import - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/import)
-  * [export - MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/export)
-</p></details>
-
-- [ ] **Uso de linter (ESLINT)**
-
-- [ ] **Uso de identificadores descritivos (Nomenclatura e Semântica)**
-
-- [ ] **Diferença entre expressões (expressions) e declarações (statements)**
-
-### Controle de Versões (Git e GitHub)
-
-- [ ] **Git: Instalação e configuração**
-
-- [ ] **Git: Controle de versão com git (init, clone, add, commit, status, push, pull, remote)**
-
-- [ ] **Git: Integração de mudanças entre ramos (branch, checkout, fetch, merge, reset, rebase, tag)**
-
-- [ ] **GitHub: Criação de contas e repositórios, configuração de chave SSH**
-
-- [ ] **GitHub: Implantação com GitHub Pages**
-
-  <details><summary>Links</summary><p>
-
-  * [Site oficial do GitHub Pages](https://pages.github.com/)
-</p></details>
-
-- [ ] **GitHub: Colaboração pelo Github (branches | forks | pull requests | code review | tags)**
-
-### Centrado no usuário
-
-- [ ] **Desenhar e desenvolver um produto ou serviço colocando as usuárias no centro**
-
-### Design de produto
-
-- [ ] **Criar protótipos para obter feedback e iterar**
-
-- [ ] **Aplicar os princípios de desenho visual (contraste, alinhamento, hierarquia)**
-
-### Pesquisa
-
-- [ ] **Planejar e executar testes de usabilidade**
-
-### AI Prompting
-
-- [ ] **Dando Instruções**
-
-  <details><summary>Links</summary><p>
-
-  * [Dando Instruções | Learn Prompting: Your Guide to Communicating with AI](https://learnprompting.org/pt/docs/basics/instructions)
-</p></details>
-
-- [ ] **Few shot prompting**
-
-  <details><summary>Links</summary><p>
-
-  * [Few shot prompting | Learn Prompting: Your Guide to Communicating with AI](https://learnprompting.org/es/docs/basics/few_shot)
-</p></details>
-
-## 9. Dicas, guias e leituras complementares
-
-### Primeiros Passos
-
-Junte-se ao canal Slack
-[#project-dataverse-pt](https://claseslaboratoria.slack.com/archives/C06BA7468AU)
-para conversar e pedir ajuda no projeto.
-
-Antes de começar a escrever código, você deve definir o que o
-produto deverá fazer com base no conhecimento que você pode obter da sua usuária.
-Estas perguntas podem te ajudar:
-
-* Quem são as principais usuárias do produto?
-* Quais são os objetivos dessas usuárias em relação ao produto?
-* Quais são os dados mais relevantes que elas desejam ver na interface e por quê?
-* Quando elas usam ou usariam o produto?
-* Toda a sua pesquisa anterior deve resultar em todas as Histórias
-  de Usuária do seu projeto.
-* Não faça protótipos de alta fidelidade de todas as suas Histórias. Comece
-  somente pelos que são necessários para o seu Sprint 1
-  (primeira semana de trabalho). Mais dicas no guia de organização
-  para o projeto.
-
-Quando estiver pronta para codificar, sugerimos que comece assim:
-
-1. Um dos membros da equipe deve fazer um :fork_and_knife:
-   [fork](https://help.github.com/articles/fork-a-repo/) do repositório da sua turma,
-   seus _coaches_ compartilharão um _link_ para um repositório e darão acesso
-   de leitura nesse repositório. O outro membro da equipe deve fazer um _fork_
-   **do repositório da colega** e
-   [configurar](https://gist.github.com/BCasal/026e4c7f5c71418485c1) um `remote`
-   para o mesmo.
-2. :arrow_down: [Clone](https://help.github.com/articles/cloning-a-repository/)
-   seu _fork_ para o seu computador (cópia local).
-3. 📦 Instale as dependências do projeto com o comando `npm install`. Isso
-   presume que você instalou o [Node.js](https://nodejs.org/) (que inclui [npm](https://docs.npmjs.com/)).
-4. Se tudo correr bem, você deverá conseguir executar os :traffic_light:
-   testes unitários (unit tests) com o comando `npm test`.
-5. Para ver a interface do seu programa no navegador, use o comando
-  `npm start` para iniciar o servidor web e acesse
-  `http://localhost:5000` no seu navegador.
-6. Vamos começar a codificar! :rocket:
-
-### Conteúdo de Referência
-
-#### Desenvolvimento Front-end
-
-* [Tópicos no currículo da Laboratória](https://curriculum.laboratoria.la/pt/web-dev/topics)
-  testes, arrays, objetos, funções, DOM no JavaScript do navegador.
-* [Procurando elementos com querySelector*](https://javascript.info/searching-elements-dom)
-* [Objeto de evento](https://javascript.info/introduction-browser-events#objeto-del-evento)
-* [Array no MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array)
-* [Array.sort no MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
-* [Array.toSorted no MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toSorted)
-* [Array.map no MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
-* [Array.filter no MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
-* [Array.reduce no MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
-* [Array.forEach no MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
-* [Object.keys no MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)
-* [Object.entries no MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Object/entries)
-* [Atributos de dados](https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Howto/Use_data_attributes)
-* [expressions-vs-statements](https://2ality.com/2012/09/expressions-vs-statements.html)
-* [expressão vs declaração](https://openclassrooms.com/en/courses/4309531-descubre-las-funciones-en-javascript/5108986-diferencia-entre-expresion-y-sentencia)
-* [Dados atômicos vs dados estruturados](https://www.todojs.com/tipos-datos-javascript-es6/)
-* [Módulos: Export](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/export)
-* [Módulos: Import](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/import)
-* [Diferença entre array e objetos](https://youtu.be/mJJloQY7A8Y)
-* [Como percorrer um objeto?](https://youtube.com/01RHn23Bn_0)
-* [`map`, `filter`, `sort` e `reduce` também são métodos para objetos](https://youtu.be/bUl1R2lQvKo)
-* [Diferença entre expression e statements](https://youtu.be/wlukoWco2zk)
-* [Diferença entre createElement e innerHTML](https://www.javascripttutorial.net/javascript-dom/javascript-innerhtml-vs-createelement/)
-* [O que é o Escopo?](https://youtu.be/s-7C09ymzK8)
+Few shot prompting
 
 #### Ferramentas
 

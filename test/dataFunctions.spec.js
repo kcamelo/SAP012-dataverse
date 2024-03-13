@@ -31,9 +31,9 @@ describe('sortData', () => {
 describe('computeStats', () => {
   it('returns `quantidade de animais`', () => {
     const data = [
-      { generoLivro: 'Carnivora' },
-      { generoLivro: 'Carnivora' },
-      { generoLivro: 'Carnivora' },
+      { ordemAnimal: 'Carnivora' },
+      { ordemAnimal: 'Carnivora' },
+      { ordemAnimal: 'Carnivora' },
     ];
 
     const expectedCount = 3;
