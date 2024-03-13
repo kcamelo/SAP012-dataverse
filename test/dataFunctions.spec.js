@@ -1,7 +1,7 @@
 import { filterTable, sortData, computeStats } from '../src/dataFunctions.js';
 import { data as fakeData } from './data.js';
 
-
+// 
 describe('filterTable', () => {
 
   it('returns `animaisCarnivoros `', () => {

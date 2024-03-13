@@ -32,6 +32,7 @@ function filtraOrdenaCards() {
   const sortSelecionado = ordemAlfabetica.value;
   
   // Inicializa a variável dadosFiltrados. Isso é necessário caso não seja feito nenhum filtro, não dar pau na função sortData
+  // let reatribuindo o valor 
   let dadosFiltrados = data;
   if (ordemSelecionada !== '') {
     // Realiza o filtro da base pela coluna ordemAnimal
