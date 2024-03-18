@@ -1,22 +1,83 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="utf-8">
-    <title>Animais Silvestres</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <script src="main.js" type="module"></script>
- <header>
-  <span> Animais Silvestres</span>
-  <h1> VOCÊ CONHECE OS ANIMAIS DO ZOOLÓGICO?</h1>
-  <p>Aprenda mais sobre os animais que moram aqui no nosso Zoo</p>
- </header>
- <div class="animal_selector">
-  <form action=""
-  <input type="text" name="q" placeholder="Digite o nome do animal">
-  <button  data-testid="botao-limpar" ></button>
- </div>
-  </body>
-  <footer><p>Autora: Katharine Akama e Yasmin Mendes</p></footer>
+<!--o que vai escrito na aba  -->
+
+<head>
+  <meta charset="utf-8">
+  <title>Animais Silvestres</title>
+  <link rel="icon" type="img/ico" href="./logo zoo.jpg">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<!-- corpo do site -->
+
+<body>
+  <script src="main.js" type="module"></script>
+  <!-- header cabeçalho -->
+  <header>
+    <!-- Main -->
+    <main>
+      <div class="banner"> Animais Silvestres
+        <h1> VOCÊ CONHECE OS ANIMAIS DO ZOOLÓGICO?</h1>
+        <h2>Aprenda mais sobre os animais que moram aqui no nosso Zoo</h2>
+      </div>
+    </main>
+  </header>
+
+
+  <!-- Botão de pesquisa -->
+  <div id="search-container">
+    <section class=" painelInteratividade">
+      <label for="filtroOrdemAnimal" id="selecionaOrdemAnimal" class="filtros"> Escolha uma ordem animal :</label>
+      <select id="filtroOrdemAnimal" name="ordemAnimal" data-testid:="select-filter">
+        <option value="">Todos</option>
+        <option value="Carnivora">Carnivora</option>
+        <option value="Accipitriformes">Accipitriformes</option>
+        <option value="Proboscidea">Proboscidea</option>
+        <option value="Artiodactyla">Artiodactyla</option>
+        <option value="Perissodactyla">Perissodactyla</option>
+        <option value="Squamata">Squamata</option>
+        <option value="Piciformes">Piciformes</option>
+        <option value="Pilosa">Pilosa</option>
+        <option value="Testudines">Testudines</option>
+        <option value="Rodentia">Rodentia</option>
+        <option value="Primates">Primates</option>
+      </select>
+    </section>
+  </div>
+
+
+  <div class="result"></div>
+  <!-- Adicione mais opções conforme necessário -->
+  <button id="resetButton" data-testid="button-clear">Limpar</button>
+
+
+
+
+  <select data-testid="selecionar-ordenar" name="ordemAlfabetica" id="ordemAlfabetica">
+    <optiongroup label="Ordem Alfabética">
+      <option value="asc">A-Z</option>
+      <option value="desc">Z-A</option>
+    </optiongroup>
+  </select>
+  <div id="quantidadeCards"></div>
+  <div id="root" class="listaCards">
+
+  </div>
+  <footer>
+    <div class="container__footer">
+      <div class="socialIcons">
+        <a href="https://github.com/kcamelo" target="_blank">
+          <img id="githubIcon" src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+            alt="Icon ordenação" />
+        </a>
+        <a href="https://www.linkedin.com/in/katharine-camelo/" target="_blank">
+          <img id="linkedinIcon" src="https://png.pngtree.com/element_our/md/20180520/md_5b012512d8e0c.jpg"
+            alt="Icon ordenação" />
+        </a>
+      </div>
+      <p>Katharine Akama</p>
+    </div>
+  </footer>
+</body>
+
 </html>
