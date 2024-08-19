@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: "Lato-Bold", Helvetica;
+  font-family: "Montserrat", Helvetica, sans-serif;
   color: #333;
   background-color: #F6E1C3;
   font-weight: bold;
@@ -15,49 +15,35 @@ body {
   height: 100vh;
 }
 
-.container__text {
-  display: flex;
-  flex-direction: column;
-}
-
 header {
+  background-color: #5F8670;
   color: white;
   text-align: center;
-  text-shadow: 40px rgba(0, 0, 0, 0.25);
-  font-family: "JetBrains Mono";
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+  padding: 20px;
 }
 
 main {
-  padding: 200px;
-  background-color: #5F8670;
+  padding: 20px;
   max-width: 1475px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  /* Adicionado para garantir que os itens estejam em coluna */
-}
-
-:root {
-  text-align: center;
+  align-items: center;
 }
 
 .container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  gap: 20px;
 }
 
 #search-container {
-
-  padding: auto;
+  margin: 20px 0;
 }
 
 .imagem_card {
-  width: 86px;
+  width: 100px; /* Ajuste de largura */
 }
 
 li {
@@ -65,10 +51,10 @@ li {
   margin: 20px;
   width: 500px;
   padding: 20px;
-  border-radius: 10%;
+  border-radius: 10px; /* Corrigido para border-radius em pixels */
   color: #030637;
   font-size: 20px;
-  font-family: "JetBrains Mono";
+  font-family: "Montserrat", sans-serif;
 }
 
 #search-input {
@@ -81,41 +67,32 @@ li {
 #search-button {
   padding: 10px;
   background-color: #a7c5bd;
-  border-radius: 50;
+  border-radius: 5px; /* Ajuste do border-radius */
   color: #fff;
   cursor: pointer;
   border: none;
-
 }
-
 
 footer {
   background-color: #820300;
   color: #fff;
-  padding: 100px 0;
+  padding: 20px; /* Ajuste de padding */
   text-align: center;
 }
 
 footer p {
   font-size: 18px;
   color: #ffffff;
-  flex-direction: row;
-  flex-wrap: wrap;
 }
 
 .container__footer {
   max-width: 300px;
   margin: 0 auto;
-  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Ajuste do espaçamento entre ícones */
 }
 
-#linkedinIcon {
-  color: #fff;
-  margin-right: 10px;
-  width: 100px;
-}
-#githubIcon{
-  color: #fff;
-  margin-right: 10px;
-  width: 100px;
+#linkedinIcon, #githubIcon {
+  width: 50px; /* Ajuste de largura para ícones */
 }
